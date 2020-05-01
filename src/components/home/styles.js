@@ -26,42 +26,30 @@ export const H3 = styled.h3`
     color: snow;
 `
 export const Title = styled.div`
+    padding-left:150px;
     width: 50%;
-    display: inline-block;
-    padding: 300px 70px 0 150px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     font-size: 30px;
     color:snow;
     box-sizing: border-box;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.5);
 
 `
-
-export const Buscador = styled.div`
-    padding-top:340px ;
+export const Social = styled.div`
     width:50%;
-    background-color: rgba(0, 0, 0, 0.6);
-`
-
-export const Input = styled.input`
-    background-color: rgba(255,255,255,0.1);
-    border: 2px solid white;
-    border-radius: 25px;
-    color: #F5F5DC;
-    font-family: 'Muli', sans-serif;
-    font-size: 16px;
-    height: 50px;
-    margin-bottom: 20px;
-    outline: none;
-    padding: 0px 20px;
-    width: 70%;
-`
-export const Button = styled.button`
-    background-color: rgba(255, 255, 255, 0.877);
-    border-radius: 25px;
-    border:2px solid white;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content:center;
+    align-items:center;
     color:white;
-    height: 50px;
-    font-size: 16px;
-    padding: 0 20px;
-    cursor: pointer;
+    text-align:center;
+`
+export const Image = styled.img`
+    width:70px;
+    border:1px solid white;
+    border-radius:30px;
+    background:white;
+    margin: 0 10px;
 `

@@ -14,8 +14,6 @@ export const Header = styled.header`
     justify-content: center;
     align-items: center;
     color:white;
-    /* background-image: url("https://www.infiernotatuajes.com/wp-content/uploads/2019/12/estudio-tatuajes-sur-df-1.png"); */
-    /* background-size: 100%; */
 `
 
 export const HeaderMenu = styled.div`
@@ -33,4 +31,8 @@ export const Li = styled.li`
     cursor: pointer;
     margin-right: 45px;
     list-style: none;
+`
+export const A = styled.a`
+    text-decoration:none;
+    color:white;
 `

@@ -1,8 +1,9 @@
 import styled from 'styled-components'
-
+import { fadeIn } from '../../styles/animation'
 export const Container = styled.div`
     width:45%;
     margin: 10px 10px;
+    max-height:370px;
 `
 
 export const Foto = styled.div`
@@ -11,9 +12,11 @@ export const Foto = styled.div`
 `
 
 export const Image = styled.img`
-    width:100%;
+width:100%;
     border-radius: 5px;
     box-shadow: 0 0 5px;
+    height: 370px;
+    max-height:370px;
 
 `
 export const Info = styled.div` 
@@ -32,12 +35,13 @@ export const Info = styled.div`
     rgba(0, 0, 0, 0) 100%);
     ${Foto}:hover & {
     opacity:1;
-    }
+    ${fadeIn()};
+    };
 `
 
 export const H4 = styled.h4`
     font-size: 30px;
-    margin: 325px 0 5px 15px;
+    margin: 280px 0 5px 15px;
 
 `
 export const P = styled.p`

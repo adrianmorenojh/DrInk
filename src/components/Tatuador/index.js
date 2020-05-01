@@ -1,18 +1,18 @@
 import React from 'react'
 import { Container, Foto, Image, Info, H4, P, Logo, Div } from './styles'
 
-export const Tatuador = () => (
+export const Tatuador = ({ name, especialidad, src }) => (
   <Container>
     <Foto>
-      <Image src='https://d36tnp772eyphs.cloudfront.net/blogs/2/2016/05/lugares-increibles-de-Estados-Unidos.jpg' alt='' />
+      <Image src={src} alt='' />
       <Info>
-        <H4>nombre y apellido</H4>
+        <H4>{name}</H4>
         <Div>
-          <P>Especialidad : Realismo Y Sombras.</P>
+          <P>Especialidad : {especialidad}</P>
           <div>
-            <Logo src='../../../public/assets/images/facebook-logo.svg' />
-            <Logo src='../../../public/assets/images/instagram.svg' />
-            <Logo src='../../../public/assets/images/twitter.svg' />
+            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/facebook-logo.svg' /></a>
+            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/instagram.svg' /></a>
+            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/twitter.svg' /></a>
           </div>
         </Div>
 

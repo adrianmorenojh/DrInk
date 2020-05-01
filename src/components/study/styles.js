@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const Div = styled.div`
     padding-top: 20px;
-    height: 100vh;
+    margin-bottom: 25px;
 `
 export const H1 = styled.h1`
     margin:0 auto;

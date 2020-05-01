@@ -12,3 +12,10 @@ export const Artistas = styled.div`
     align-items: center;
     justify-content: center;
 `
+
+export const H1 = styled.h1`
+    text-align:center;
+    font-size:30px;
+    color:white;
+    margin-top: 0;
+`

@@ -10,6 +10,15 @@ export const CategoryContainer = styled.div`
     grid-template-columns:repeat(4, 300px);
     grid-gap: 8px;
     justify-content: center;
+    @media (max-width:1024px){
+        grid-template-columns: repeat(3,270px);
+    }
+    @media (max-width:768px){
+        grid-template-columns: repeat(3,230px);
+    }
+    @media (max-width:480px){
+        grid-template-columns: repeat(2,170px);
+    }
 `
 export const H1 = styled.h1`
     font-size:25px;

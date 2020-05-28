@@ -16,9 +16,20 @@ export const Galery = styled.div`
     width: 70vw;
     margin: 0 auto;
     position: relative;
+    @media (max-width:768px){
+        width: 90vw;
+    }
+
 `
 export const Image = styled.img`
     max-height: 80vh;
     width:100%;
     box-shadow: 0 0 5px black;
+    @media (max-width:768px){
+        height:540px;
+    }
+    @media (max-width:480px){
+        height:340px;
+    }
+
 `

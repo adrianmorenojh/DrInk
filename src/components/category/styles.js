@@ -23,7 +23,7 @@ export const Button = styled.button`
     padding:0 5px;
     background-color:rgba(255, 255, 255, 0.877);
     cursor: pointer;
+    @media(max-width:480px){
+        margin: 0 5px;
+    }
 `
-
-
-

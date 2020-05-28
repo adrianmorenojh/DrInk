@@ -5,6 +5,13 @@ export const Form = styled.form`
   width: 50%;
   padding: 20px 50px;
   color:white;
+  @media(max-width:768px){
+    padding:20px 20px;
+  }
+   @media(max-width:768px){
+    width: 380px;
+  }
+  
 `
 export const Title = styled.h4`
   font-size: 25px;

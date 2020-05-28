@@ -4,6 +4,12 @@ export const Container = styled.div`
     width:45%;
     margin: 10px 10px;
     max-height:370px;
+    @media (max-width:768px){
+        width:90%;
+    }
+    @media (max-width:480px){
+        width:400px;
+    }
 `
 
 export const Foto = styled.div`

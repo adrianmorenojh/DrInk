@@ -3,6 +3,7 @@ import { GlobalStyle } from '../GlobalStyle'
 import { Header } from './header'
 import { SectionContainer } from './SectionContainer'
 import { Contact } from './Contact'
+import { Footer } from './footer'
 const App = () => {
   return (
     <div>
@@ -10,7 +11,7 @@ const App = () => {
       <Header />
       <SectionContainer />
       <Contact />
-
+      <Footer />
     </div>
   )
 }

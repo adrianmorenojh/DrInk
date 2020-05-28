@@ -15,7 +15,7 @@ export const Background = styled.div`
         padding: 150px 30px 0;
     }
     @media (max-width:480px){
-        padding: 60px 20px 0;
+        padding: 115px 20px 0;
     }
 
 `

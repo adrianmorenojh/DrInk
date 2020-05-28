@@ -9,6 +9,9 @@ export const Div = styled.div`
   width: 50%;
   box-sizing: border-box;
   padding-top: 20px;
+  @media(max-width:480px){
+    width:400px;
+  }
 `
 export const Iframe = styled.iframe`
  width: 85%;

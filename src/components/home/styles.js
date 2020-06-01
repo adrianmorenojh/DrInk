@@ -5,9 +5,7 @@ export const DivHero = styled.div`
     background-size:100% 100%;
     height: 100vh;
     box-shadow: 0 0 5px black;
-    @media (max-width:480px){
-       height:70vh;
-    }
+
 `
 export const Background = styled.div`
     background-color: rgba(0, 0, 0, 0.5);

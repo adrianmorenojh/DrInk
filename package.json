@@ -24,6 +24,7 @@
     "@babel/core": "^7.9.0",
     "@babel/preset-env": "^7.9.0",
     "@babel/preset-react": "^7.9.4",
+    "css-loader": "^3.5.3",
     "html-loader": "^1.0.0",
     "html-webpack-plugin": "^4.0.1",
     "standard": "^14.3.3",

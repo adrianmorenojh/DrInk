@@ -5,6 +5,9 @@ export const DivHero = styled.div`
     background-size:100% 100%;
     height: 100vh;
     box-shadow: 0 0 5px black;
+    @media (max-width:480px){
+       height:70vh;
+    }
 `
 export const Background = styled.div`
     background-color: rgba(0, 0, 0, 0.5);
@@ -76,12 +79,8 @@ export const Social = styled.div`
     }
 
 `
-export const Image = styled.img`
-    width:70px;
-    border:1px solid white;
-    border-radius:30px;
-    background:white;
-    margin: 0 10px;
+export const A = styled.a`
+    margin: 0 5px;
     @media (max-width:480px){
         width:55px;
     }

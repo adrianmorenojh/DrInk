@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Foto, Image, Info, H4, P, Logo, Div } from './styles'
-
+import { FacebookIcon, InstagramIcon, TwitterIcon } from '../../styles/Icons'
 export const Tatuador = ({ name, especialidad, src }) => (
   <Container>
     <Foto>
@@ -10,9 +10,9 @@ export const Tatuador = ({ name, especialidad, src }) => (
         <Div>
           <P>Especialidad : {especialidad}</P>
           <div>
-            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/facebook-logo.svg' /></a>
-            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/instagram.svg' /></a>
-            <a href='https://www.instagram.com/adrianmorenojh_'><Logo src='../../../public/assets/images/twitter.svg' /></a>
+            <a href='https://www.instagram.com/adrianmorenojh_'><FacebookIcon alto='30' ancho='30' /></a>
+            <a href='https://www.instagram.com/adrianmorenojh_'><InstagramIcon alto='30' ancho='30' /></a>
+            <a href='https://www.instagram.com/adrianmorenojh_'><TwitterIcon alto='30' ancho='30' /></a>
           </div>
         </Div>
 

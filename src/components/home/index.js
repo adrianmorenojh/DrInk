@@ -1,6 +1,6 @@
 import React from 'react'
-import { DivHero, H1, H3, Title, Social, Image, Div, Background } from './styles'
-
+import { DivHero, H1, H3, Title, Social, A, Div, Background } from './styles'
+import { FacebookIcon, InstagramIcon, TwitterIcon } from '../../styles/Icons'
 export const Home = () => {
   return (
     <a name='home'>
@@ -23,9 +23,9 @@ export const Home = () => {
             <Social>
               <div>
                 <h1>Nuestras Redes</h1>
-                <a href='https://www.instagram.com/adrianmorenojh_'><Image src='./assets/images/facebook-logo.svg' /></a>
-                <a href='https://www.instagram.com/adrianmorenojh_'><Image src='../../../public/assets/images/instagram.svg' /></a>
-                <a href='https://www.instagram.com/adrianmorenojh_'><Image src='../../../public/assets/images/twitter.svg' /></a>
+                <A href='https://www.instagram.com/adrianmorenojh_'><FacebookIcon alto={60} ancho={60} /></A>
+                <A href='https://www.instagram.com/adrianmorenojh_'><InstagramIcon alto={60} ancho={60} /></A>
+                <A href='https://www.instagram.com/adrianmorenojh_'><TwitterIcon alto={60} ancho={60} /></A>
               </div>
             </Social>
           </Div>

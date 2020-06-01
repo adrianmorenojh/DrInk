@@ -15,7 +15,7 @@ export const Category = () => {
         <Button onClick={() => setCategory('tattos')}>Todos</Button>
         <Button onClick={() => setCategory('nature')}>Realismo</Button>
         <Button onClick={() => setCategory('buildings')}>Sombras</Button>
-        <Button onClick={() => setCategory('porn')}>Nueva Escuela</Button>
+        <Button onClick={() => setCategory('tatto')}>Nueva Escuela</Button>
         <Button onClick={() => setCategory('girls')}>Otros</Button>
       </ButtonContainer>
 

@@ -8,7 +8,7 @@ export const Header = styled.header`
     top: 0;
     right:0;
     left:0;
-    min-height: 60px;
+    height:60px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,6 +49,7 @@ export const Li = styled.li`
 export const A = styled.a`
     text-decoration:none;
     color:white;
+    font-size:18px;
     :hover{
         opacity: .5;
     }

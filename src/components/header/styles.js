@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 export const Header = styled.header`
-
-
     max-width:100vw;
     position: fixed;
     // padding: 5px 0;
@@ -10,7 +8,7 @@ export const Header = styled.header`
     top: 0;
     right:0;
     left:0;
-    height: 40px;
+    height: 55px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,7 +57,7 @@ export const Logo = styled.div`
     padding: 7px 0 0px;
     margin: 0 20px;
     font-family: 'Lalezar', cursive;
-    font-size: 45px;
+    font-size: 60px;
     @media(max-width:768px){
         margin: 0 0 0 5px; 
     }

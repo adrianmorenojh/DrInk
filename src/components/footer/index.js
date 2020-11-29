@@ -3,6 +3,6 @@ import { Div, P } from './styles'
 
 export const Footer = () => (
   <Div>
-    <P>Desarrollado a mano por Adrian Moreno.</P>
+    <P>Desarrollado por Adrian Moreno.</P>
   </Div>
 )

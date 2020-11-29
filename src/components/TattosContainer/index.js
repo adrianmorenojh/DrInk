@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { TattoContainer, CategoryContainer, H1 } from './styles'
 import { ImageContainer } from '../ImageContainer'
+import Loading from '../Loading'
 
 function useFetchData ({ url }) {
   const [tatto, setTatto] = useState([])
@@ -14,7 +15,7 @@ function useFetchData ({ url }) {
 
 export const TattosContainer = ({ url }) => {
   const { tatto } = useFetchData({ url })
-  return (tatto.length === 0 ? <H1>loading...</H1>
+  return (tatto.length === 0 ? <Loading/>
 
     : <a name='tattos'>
       <TattoContainer>

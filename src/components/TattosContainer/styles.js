@@ -6,18 +6,19 @@ export const TattoContainer = styled.div`
     box-shadow: 0 0 5px black;
 `
 export const CategoryContainer = styled.div`
-    display:grid;
-    grid-template-columns:repeat(4, 300px);
+    margin: 0 5px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     grid-gap: 8px;
     justify-content: center;
     @media (max-width:1024px){
-        grid-template-columns: repeat(3,270px);
+        grid-template-columns: repeat(3, 1fr);
     }
     @media (max-width:768px){
-        grid-template-columns: repeat(3,230px);
+        grid-template-columns: repeat(3, 1fr);
     }
     @media (max-width:480px){
-        grid-template-columns: repeat(2,170px);
+        grid-template-columns: repeat(2, 1fr);
     }
 `
 export const H1 = styled.h1`

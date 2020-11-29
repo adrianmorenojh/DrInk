@@ -1,9 +1,15 @@
-import styled from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 import { fadeIn } from '../../styles/animation'
+
 export const Container = styled.div`
     width:45%;
+    max-width:500px;
     margin: 10px 10px;
     max-height:370px;
+    animation-name: visible;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
     @media (max-width:768px){
         width:90%;
     }
@@ -15,6 +21,7 @@ export const Container = styled.div`
 export const Foto = styled.div`
     position: relative;
     margin:auto;
+    animation: animation 1001ms linear both;
 `
 
 export const Image = styled.img`
@@ -53,12 +60,12 @@ export const H4 = styled.h4`
 export const P = styled.p`
     margin-left: 15px;
 `
-export const Logo = styled.img`
-    width: 30px;
-    background: white;
-    border-radius: 30px;
-    border: 1px solid white;
-    margin-right: 5px;
+export const Logo = styled.div`
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    width: 75px;
+    color:white;
 `
 export const Div = styled.div`
     display: flex;

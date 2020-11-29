@@ -41,6 +41,10 @@ export const Ol = styled.ol`
     @media(max-width:768px){
         margin: 0px 5px 0 0;
     }
+    @media(max-width:480px){
+        width: 100%;
+    }
+
 `
 export const Li = styled.li`
     cursor: pointer;
